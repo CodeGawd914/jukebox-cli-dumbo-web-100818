@@ -59,3 +59,4 @@ def run(my_songs)
       puts "Invalid input, please try again"
     end
   end
+end
