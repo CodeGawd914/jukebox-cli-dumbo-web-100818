@@ -24,7 +24,7 @@ end
 
 def list(my_songs)
   my_song.each {|song,spot| puts song }
-
+end
 
 def play(my_songs)
   #this method is slightly different!
