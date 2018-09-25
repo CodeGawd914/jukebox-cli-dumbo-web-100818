@@ -37,7 +37,7 @@ def play(my_songs)
 end
 
 def exit_jukebox
-  
+  puts "Goodbye"
 end
 
 def run(my_songs)
