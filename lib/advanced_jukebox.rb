@@ -31,7 +31,7 @@ def play(my_songs)
   answer = gets.chomp
   my_songs.each do |song,spot|
     if answer == song
-      system 
+      system 'open' + spot
 end
 
 def exit_jukebox
