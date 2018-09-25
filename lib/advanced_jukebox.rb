@@ -30,7 +30,8 @@ def play(my_songs)
   puts "Please enter a song name:"
   answer = gets.chomp
   my_songs.each do |song,spot|
-    if answer ==
+    if answer == song
+      system 
 end
 
 def exit_jukebox
