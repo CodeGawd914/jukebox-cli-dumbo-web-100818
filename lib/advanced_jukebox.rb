@@ -23,9 +23,7 @@ end
 
 
 def list(my_songs)
-  #this method is different! Collect the keys of the my_songs hash and 
-  #list the songs by name
-end
+  my_song.each {|song,spot| puts song }
 
 
 def play(my_songs)
