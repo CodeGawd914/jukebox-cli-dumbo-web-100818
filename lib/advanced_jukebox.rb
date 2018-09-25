@@ -32,6 +32,8 @@ def play(my_songs)
   my_songs.each do |song,spot|
     if answer == song
       system 'open' + spot
+    end
+  end
 end
 
 def exit_jukebox
